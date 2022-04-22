@@ -10,7 +10,7 @@ name: Python application
 
 on:
   schedule:
-    - cron : 0 13 * * *
+    - cron : 5 0 * * *
   push:
     branches: [ main ]
   pull_request:
